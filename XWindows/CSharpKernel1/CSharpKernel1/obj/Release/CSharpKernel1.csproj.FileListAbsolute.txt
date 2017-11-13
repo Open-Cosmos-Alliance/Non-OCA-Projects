@@ -1,0 +1,17 @@
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\CSharpKernel1.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\CSharpKernel1.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Core.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Hardware.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.System.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Core.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Hardware.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.System.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\obj\Release\CSharpKernel1.dll
+C:\Users\radu\documents\visual studio 2010\Projects\CSharpKernel1\CSharpKernel1\obj\Release\CSharpKernel1.pdb
+C:\Users\radu\Documents\Visual Studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\tulLib.dll
+C:\Users\radu\Documents\Visual Studio 2010\Projects\CSharpKernel1\CSharpKernel1\bin\Release\tulLib.pdb

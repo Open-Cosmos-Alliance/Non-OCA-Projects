@@ -1,0 +1,25 @@
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\bin\Debug\CICGui.exe
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\bin\Debug\CICGui.pdb
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\CICGui.Form1.resources
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\CICGui.Properties.Resources.resources
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\CICGui.exe
+C:\Documents and Settings\Eamon Jr\Local Settings\Application Data\Temporary Projects\CICGui\obj\x86\Debug\CICGui.pdb
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.exe
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.pdb
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\bin\Debug\CICGui.exe.config
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\bin\Debug\CICGui.exe.manifest
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\bin\Debug\CICGui.application
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\bin\Debug\CICGui.exe
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\bin\Debug\CICGui.pdb
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.Form1.resources
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.Properties.Resources.resources
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.exe.manifest
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui\CICGui\CICGui\obj\x86\Debug\CICGui.application

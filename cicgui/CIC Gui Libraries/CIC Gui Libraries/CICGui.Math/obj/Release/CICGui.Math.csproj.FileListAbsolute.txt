@@ -1,0 +1,5 @@
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui.Graphics.Importer\CICGui.Graphics.Importer\CICGui.Math\bin\Release\CICGui.Math.dll
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui.Graphics.Importer\CICGui.Graphics.Importer\CICGui.Math\bin\Release\CICGui.Math.pdb
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui.Graphics.Importer\CICGui.Graphics.Importer\CICGui.Math\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui.Graphics.Importer\CICGui.Graphics.Importer\CICGui.Math\obj\Release\CICGui.Math.dll
+C:\Documents and Settings\Eamon Jr\Desktop\CICGui.Graphics.Importer\CICGui.Graphics.Importer\CICGui.Math\obj\Release\CICGui.Math.pdb

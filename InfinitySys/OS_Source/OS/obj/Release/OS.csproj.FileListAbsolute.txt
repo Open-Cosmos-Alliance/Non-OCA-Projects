@@ -1,0 +1,45 @@
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\OS.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\OS.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Core.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Hardware.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.System.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Core.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Hardware.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.System.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\obj\Release\OS.dll
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\obj\Release\OS.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\OS.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\OS.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Core.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Hardware.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.System.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Core.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Hardware.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.System.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\Grunt\Downloads\OS\OS\OS\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Grunt\Downloads\OS\OS\OS\obj\Release\OS.dll
+C:\Users\Grunt\Downloads\OS\OS\OS\obj\Release\OS.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\OS.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\OS.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Core.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Debug.Kernel.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Hardware.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.System.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Common.Extensions.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Core.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Hardware.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.System.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Debug.Kernel.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\Cosmos.Common.Extensions.pdb
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\obj\Release\OS.dll
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\obj\Release\OS.pdb

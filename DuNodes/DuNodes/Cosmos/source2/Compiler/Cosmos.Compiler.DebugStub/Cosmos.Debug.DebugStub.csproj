@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7F3F078-CF99-4018-9A35-2D6DC9517ADB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cosmos.Debug.DebugStub</RootNamespace>
+    <AssemblyName>Cosmos.Debug.DebugStub</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Cosmos.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Old\CmdAsmBreak.cs" />
+    <Compile Include="Old\CmdPing.cs" />
+    <Compile Include="Old\CmdTrace.cs" />
+    <Compile Include="Old\ComPort.cs" />
+    <Compile Include="Old\Consts.cs" />
+    <Compile Include="Old\DebugStub.cs" />
+    <Compile Include="Old\Init.cs" />
+    <Compile Include="Old\ProcessCmds.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Old\Screen.cs" />
+    <Compile Include="Old\CmdSend.cs" />
+    <Compile Include="Serial.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Serial.xs</DependentUpon>
+    </Compile>
+    <Compile Include="TracerEntry.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TracerEntry.xs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cosmos.snk" />
+    <None Include="Serial.xs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>Serial.cs</LastGenOutput>
+    </None>
+    <None Include="TracerEntry.xs">
+      <Generator>CosmosXSharpGenerator</Generator>
+      <LastGenOutput>TracerEntry.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cosmos.Assembler.x86\Cosmos.Assembler.x86.csproj">
+      <Project>{94D079E4-3C66-486A-8407-EA6EC049FF53}</Project>
+      <Name>Cosmos.Assembler.x86</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cosmos.Assembler.XSharp\Cosmos.Assembler.XSharp.csproj">
+      <Project>{453F2952-FD48-477F-889B-B3C6963C9850}</Project>
+      <Name>Cosmos.Assembler.XSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Cosmos.Assembler\Cosmos.Assembler.csproj">
+      <Project>{1116130E-28E0-428A-A597-F4B3B676C0CA}</Project>
+      <Name>Cosmos.Assembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IL2CPU\Cosmos.IL2CPU.Debug\Cosmos.Debug.Consts.csproj">
+      <Project>{9998B4EA-385E-4DA2-8905-2BBEB5B2C6E2}</Project>
+      <Name>Cosmos.Debug.Consts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

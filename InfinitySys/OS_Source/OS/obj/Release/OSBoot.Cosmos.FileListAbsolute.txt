@@ -1,0 +1,3 @@
+C:\Users\Portable\documents\visual studio 2010\Projects\OS\OS\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Grunt\Downloads\OS\OS\OS\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\obj\Release\ResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\OS.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\OS.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Core.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Debug.Kernel.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Hardware.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.System.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Common.Extensions.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Core.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Hardware.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.System.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Debug.Kernel.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\bin\Debug\Cosmos.Common.Extensions.pdb
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\obj\Debug\ResolveAssemblyReference.cache
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\obj\Debug\OS.dll
+c:\users\portable\documents\visual studio 2010\Projects\OS\OS\obj\Debug\OS.pdb

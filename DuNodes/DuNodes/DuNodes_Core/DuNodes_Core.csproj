@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB228BEA-C8C5-42BF-8664-8275D5C46BE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DuNodes_Core</RootNamespace>
+    <AssemblyName>DuNodes_Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cosmos.Assembler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.Assembler.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Assembler.x86, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bf5be72affb3826f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.Assembler.x86.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Common.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.Common.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.Debug.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.Hardware, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.Hardware.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.IL2CPU.Plugs">
+      <HintPath>tmpLibrary\Cosmos.IL2CPU.Plugs.dll</HintPath>
+    </Reference>
+    <Reference Include="Cosmos.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>tmpLibrary\Cosmos.System.dll</HintPath>
+    </Reference>
+    <Reference Include="GLNFSLib">
+      <HintPath>.\GLNFSLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Env.cs" />
+    <Compile Include="Terminal\CommandManager\Command.cs" />
+    <Compile Include="Terminal\CommandManager\CommandBase.cs" />
+    <Compile Include="Terminal\CommandManager\Commands\config.cs" />
+    <Compile Include="Terminal\CommandManager\Commands\bench.cs" />
+    <Compile Include="Terminal\CommandManager\Commands\ping.cs" />
+    <Compile Include="Terminal\CommandManager\Commands\rammanager.cs" />
+    <Compile Include="Terminal\CommandManager\Commands\top.cs" />
+    <Compile Include="Terminal\Console.Animations.cs" />
+    <Compile Include="Terminal\Console.Error.cs" />
+    <Compile Include="Terminal\Console.Multi.cs" />
+    <Compile Include="Terminal\Menu\Console.Menu.Category.cs" />
+    <Compile Include="Terminal\Menu\Console.Menu.Commands.Back.cs" />
+    <Compile Include="Terminal\Menu\Console.Menu.cs" />
+    <Compile Include="Terminal\Menu\Console.Menu.Entry.cs" />
+    <Compile Include="Terminal\Menu\Console.Menu.Themepack.cs" />
+    <Compile Include="Core\Random.cs" />
+    <Compile Include="dev\Filesystem\FAT\Enum.cs" />
+    <Compile Include="dev\Filesystem\FAT\FATFileSystem.cs" />
+    <Compile Include="dev\Filesystem\FileSystem.cs" />
+    <Compile Include="dev\Textscreen.cs" />
+    <Compile Include="dev\TextScreen.Internal.cs" />
+    <Compile Include="Core\ACPI.cs" />
+    <Compile Include="Core\Bluescreen.cs" />
+    <Compile Include="Terminal\Console.ProgressBar.cs" />
+    <Compile Include="Terminal\Console.VideoRAM.cs" />
+    <Compile Include="Core\IDT.cs" />
+    <Compile Include="Core\INTs.cs" />
+    <Compile Include="Core\IRQ.cs" />
+    <Compile Include="Core\PIT.cs" />
+    <Compile Include="Crypto\MD5.cs" />
+    <Compile Include="dev\ATAPI.cs" />
+    <Compile Include="Terminal\Console.cs" />
+    <Compile Include="dev\Filesystem\WitchFS\WitchTimestamp.cs" />
+    <Compile Include="dev\Log.cs" />
+    <Compile Include="Audio\PCSpeaker.cs" />
+    <Compile Include="Extensions\KernelExtensions.cs" />
+    <Compile Include="Extensions\NumericExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="IO\BinaryWriter.cs" />
+    <Compile Include="IO\PortIO.cs" />
+    <Compile Include="IO\FileSystem\FileStream.cs" />
+    <Compile Include="IO\FileSystem\FileSystem.cs" />
+    <Compile Include="IO\FileSystem\VirtualFileSystem.cs" />
+    <Compile Include="IO\MemoryStream.cs" />
+    <Compile Include="IO\Stream.cs" />
+    <Compile Include="IO\VideoStream.cs" />
+    <Compile Include="Kenneth.cs" />
+    <Compile Include="Core\KeyLayout.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RTC.cs" />
+    <Compile Include="Terminal\Console.Bootscreen.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dev\Filesystem\WitchFS\WitchFS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crypto\Rot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dev\Filesystem\AFS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Terminal\Console.ShortCuts.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Terminal\Console.AutoComplete.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cosmos\source2\Kernel\System\Hardware\Core\Cosmos.Core\Cosmos.Core.csproj">
+      <Project>{5AC4773C-CB4E-4CD9-8D50-02E10A07DEE6}</Project>
+      <Name>Cosmos.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

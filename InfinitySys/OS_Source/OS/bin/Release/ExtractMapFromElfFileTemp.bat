@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Users\Anders\AppData\Roaming\Cosmos User Kit\Build\tools\cygwin\objdump.exe" --wide --syms "C:\Users\Anders\Documents\Visual Studio 2010\Projects\OS\OS\bin\Release\OSBoot.bin" > ExtractMapFromElfFileTemp.out
